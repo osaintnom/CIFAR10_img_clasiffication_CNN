@@ -1,0 +1,55 @@
+
+[1,   200] loss: 0.221
+[1,   400] loss: 0.416
+[1,   600] loss: 0.598
+[1,   800] loss: 0.773
+[1,  1000] loss: 0.944
+[1,  1200] loss: 1.107
+[2,   200] loss: 0.160
+[2,   400] loss: 0.316
+[2,   600] loss: 0.474
+[2,   800] loss: 0.630
+[2,  1000] loss: 0.781
+[2,  1200] loss: 0.931
+[3,   200] loss: 0.143
+[3,   400] loss: 0.286
+[3,   600] loss: 0.430
+[3,   800] loss: 0.574
+[3,  1000] loss: 0.716
+[3,  1200] loss: 0.858
+[4,   200] loss: 0.134
+[4,   400] loss: 0.266
+[4,   600] loss: 0.400
+[4,   800] loss: 0.535
+[4,  1000] loss: 0.669
+[4,  1200] loss: 0.801
+[5,   200] loss: 0.121
+[5,   400] loss: 0.246
+[5,   600] loss: 0.370
+[5,   800] loss: 0.497
+[5,  1000] loss: 0.626
+[5,  1200] loss: 0.750
+[6,   200] loss: 0.111
+[6,   400] loss: 0.229
+[6,   600] loss: 0.345
+[6,   800] loss: 0.463
+[6,  1000] loss: 0.583
+[6,  1200] loss: 0.703
+[7,   200] loss: 0.107
+[7,   400] loss: 0.215
+[7,   600] loss: 0.325
+[7,   800] loss: 0.435
+[7,  1000] loss: 0.547
+[7,  1200] loss: 0.661
+[8,   200] loss: 0.100
+[8,   400] loss: 0.202
+[8,   600] loss: 0.305
+[8,   800] loss: 0.409
+[8,  1000] loss: 0.515
+[8,  1200] loss: 0.620
+[9,   200] loss: 0.094
+cpu
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Files already downloaded and verified
+Files already downloaded and verified
+cat   deer  car   cat   plane dog   ship  ship  frog  bird  cat   plane cat   dog   frog  cat   cat   deer  bird  truck deer  horse car   horse truck frog  frog  truck bird  ship  deer  cat
