@@ -1,0 +1,1339 @@
+2023-11-01 18:00:28,928 INFO    StreamThr :24868 [internal.py:wandb_internal():86] W&B internal server running at pid: 24868, started at: 2023-11-01 18:00:28.927340
+2023-11-01 18:00:28,931 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status
+2023-11-01 18:00:28,968 INFO    WriterThread:24868 [datastore.py:open_for_write():85] open: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\run-ic1dpxuo.wandb
+2023-11-01 18:00:28,968 DEBUG   SenderThread:24868 [sender.py:send():380] send: header
+2023-11-01 18:00:29,081 DEBUG   SenderThread:24868 [sender.py:send():380] send: run
+2023-11-01 18:00:29,552 INFO    SenderThread:24868 [dir_watcher.py:__init__():211] watching files in: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files
+2023-11-01 18:00:29,552 INFO    SenderThread:24868 [sender.py:_start_run_threads():1122] run started: ic1dpxuo with start time 1698872428.926841
+2023-11-01 18:00:29,577 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: check_version
+2023-11-01 18:00:29,578 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: check_version
+2023-11-01 18:00:29,668 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: run_start
+2023-11-01 18:00:29,683 DEBUG   HandlerThread:24868 [system_info.py:__init__():32] System info init
+2023-11-01 18:00:29,683 DEBUG   HandlerThread:24868 [system_info.py:__init__():47] System info init done
+2023-11-01 18:00:29,684 INFO    HandlerThread:24868 [system_monitor.py:start():194] Starting system monitor
+2023-11-01 18:00:29,684 INFO    SystemMonitor:24868 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-01 18:00:29,684 INFO    HandlerThread:24868 [system_monitor.py:probe():214] Collecting system info
+2023-11-01 18:00:29,694 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started cpu monitoring
+2023-11-01 18:00:29,694 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started disk monitoring
+2023-11-01 18:00:29,696 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started gpu monitoring
+2023-11-01 18:00:29,696 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started memory monitoring
+2023-11-01 18:00:29,708 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started network monitoring
+2023-11-01 18:00:29,709 DEBUG   HandlerThread:24868 [system_info.py:probe():196] Probing system
+2023-11-01 18:00:29,712 DEBUG   HandlerThread:24868 [system_info.py:_probe_git():181] Probing git
+2023-11-01 18:00:29,723 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:29,855 DEBUG   HandlerThread:24868 [system_info.py:_probe_git():189] Probing git done
+2023-11-01 18:00:29,856 DEBUG   HandlerThread:24868 [system_info.py:probe():244] Probing system done
+2023-11-01 18:00:29,856 DEBUG   HandlerThread:24868 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.5', 'heartbeatAt': '2023-11-01T21:00:29.709769', 'startedAt': '2023-11-01T21:00:28.907242', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/lucasfpineram/tp3_td6.git', 'commit': '2af5303aa64db162d09cf39700ef09013946be21'}, 'email': 'oltie4002@gmail.com', 'root': 'C:/Users/oltie/OneDrive/Escritorio/DiTella/6to_Semestre_23/TD6/TP3  Consignas y recursos-20231024/tp3_td6', 'host': 'DESKTOP-LB9RBNV', 'username': 'oltie', 'executable': 'c:\\Users\\oltie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'/': {'total': 933.9081993103027, 'used': 380.8846435546875}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.744911193847656}}
+2023-11-01 18:00:29,856 INFO    HandlerThread:24868 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-01 18:00:29,856 INFO    HandlerThread:24868 [system_monitor.py:probe():227] Publishing system info
+2023-11-01 18:00:29,856 DEBUG   HandlerThread:24868 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-01 18:00:29,857 DEBUG   HandlerThread:24868 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-01 18:00:29,860 INFO    HandlerThread:24868 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-01 18:00:29,860 DEBUG   SenderThread:24868 [sender.py:send():380] send: files
+2023-11-01 18:00:29,860 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-01 18:00:29,889 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:00:29,891 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:00:29,892 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:00:29,899 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: pause
+2023-11-01 18:00:29,899 INFO    HandlerThread:24868 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-01 18:00:29,899 INFO    HandlerThread:24868 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-01 18:00:29,900 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-01 18:00:29,900 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined disk monitor
+2023-11-01 18:00:29,918 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-01 18:00:29,919 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-01 18:00:29,919 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-01 18:00:30,009 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-01 18:00:30,010 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined memory monitor
+2023-11-01 18:00:30,010 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined network monitor
+2023-11-01 18:00:30,010 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: resume
+2023-11-01 18:00:30,010 INFO    HandlerThread:24868 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-01 18:00:30,012 INFO    HandlerThread:24868 [system_monitor.py:start():194] Starting system monitor
+2023-11-01 18:00:30,012 INFO    SystemMonitor:24868 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-01 18:00:30,020 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started cpu monitoring
+2023-11-01 18:00:30,020 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started disk monitoring
+2023-11-01 18:00:30,022 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started gpu monitoring
+2023-11-01 18:00:30,023 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started memory monitoring
+2023-11-01 18:00:30,039 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started network monitoring
+2023-11-01 18:00:30,050 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:30,197 DEBUG   SenderThread:24868 [sender.py:send():380] send: telemetry
+2023-11-01 18:00:30,197 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:00:30,563 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-metadata.json
+2023-11-01 18:00:30,564 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\requirements.txt
+2023-11-01 18:00:30,624 INFO    wandb-upload_0:24868 [upload_job.py:push():131] Uploaded file C:\Users\oltie\AppData\Local\Temp\tmpnqthged0wandb\x73q0xhf-wandb-metadata.json
+2023-11-01 18:00:32,073 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:34,091 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:34,235 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:00:36,118 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:38,152 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:39,255 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:00:40,179 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:42,209 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:44,235 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:44,296 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:00:44,904 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:00:44,905 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:00:44,905 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:00:46,261 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:47,715 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:00:48,294 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:49,732 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:00:50,245 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:00:50,324 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:52,354 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:53,767 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:00:54,388 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:55,952 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:00:56,420 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:57,824 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:00:58,450 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:00:59,910 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:00:59,925 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:00:59,926 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:01:00,642 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:01,127 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:01,872 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\config.yaml
+2023-11-01 18:01:02,676 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:03,888 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:04,696 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:06,726 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:06,877 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:07,940 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:08,752 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:10,785 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:11,991 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:12,302 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:12,801 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:14,824 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:14,917 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:01:14,931 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:01:14,932 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:01:16,852 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:18,163 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:18,884 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:20,913 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:22,938 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:23,204 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:24,963 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:26,397 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:01:26,398 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:01:26,398 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:01:26,402 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:01:26,984 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:27,161 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:01:28,425 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:29,001 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:29,925 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:01:29,957 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:01:29,957 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:01:30,052 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-01 18:01:30,450 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:01:31,124 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:33,150 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:33,491 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:35,184 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:37,215 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:38,536 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:39,242 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:41,270 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:43,290 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:43,817 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:44,300 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:44,937 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:01:44,951 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:01:44,952 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:01:45,323 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:47,357 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:48,346 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:49,311 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:49,380 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:51,408 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:52,386 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:53,441 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:54,913 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:55,462 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:57,485 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:58,450 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:01:59,519 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:01:59,944 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:01:59,946 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:01:59,961 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:01:59,962 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:02:00,223 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:02:01,685 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:02,488 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:03,721 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:05,473 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:05,754 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:06,535 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:07,785 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:09,814 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:10,532 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:11,831 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:13,856 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:14,938 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:02:14,969 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:02:14,970 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:02:15,874 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:16,266 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:17,912 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:19,937 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:20,873 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:02:20,874 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:02:20,875 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:02:20,876 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:02:21,681 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:02:21,882 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:21,957 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:23,986 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:26,004 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:26,936 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:28,030 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:29,943 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:02:29,975 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:02:29,976 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:02:30,055 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:30,261 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:02:32,170 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:32,276 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:34,196 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:36,222 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:37,747 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:37,825 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:38,253 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:40,280 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:41,864 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:42,302 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:42,955 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:44,332 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:44,950 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:02:44,964 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:02:44,966 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:02:45,918 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:46,358 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:48,224 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:48,386 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:49,965 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:50,418 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:52,442 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:53,393 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:02:54,014 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:54,469 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:56,490 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:58,065 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:02:58,516 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:02:58,782 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:00,078 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:03:00,550 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:00,557 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:03:00,557 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:03:00,558 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:03:02,652 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:03,814 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:04,668 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:06,692 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:08,714 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:08,837 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:10,746 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:12,782 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:13,881 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:14,799 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:15,272 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:03:15,275 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:03:15,276 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:03:15,277 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:03:16,263 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:03:16,274 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:03:16,275 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:03:16,276 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:03:16,823 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:18,853 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:19,588 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:20,880 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:22,896 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:24,615 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:24,920 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:26,935 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:28,955 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:29,653 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:30,092 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:03:30,988 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:31,278 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:03:31,279 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:03:31,293 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:03:32,391 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:33,126 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:35,154 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:35,243 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:36,429 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:37,182 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:39,205 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:40,437 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:40,485 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:41,233 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:43,266 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:44,526 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:45,294 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:45,618 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:46,291 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:03:46,292 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:03:46,307 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:03:47,325 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:48,560 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:49,354 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:50,796 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:51,386 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:52,583 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:03:53,406 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:55,421 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:56,030 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:03:57,437 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:03:59,463 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:00,095 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:04:01,099 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:01,306 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:04:01,307 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:04:01,322 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:04:01,490 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:03,627 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:05,653 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:06,541 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:06,767 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:04:06,769 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:04:06,769 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:04:06,771 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:04:07,686 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:07,728 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:04:09,714 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:11,734 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:11,816 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:13,751 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:15,772 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:16,321 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:04:16,321 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:04:16,337 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:04:17,584 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:17,792 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:19,821 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:21,849 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:22,878 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:23,314 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:23,883 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:25,921 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:26,927 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:27,948 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:28,499 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:29,966 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:30,109 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:04:30,979 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:31,336 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:04:31,337 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:04:31,352 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:04:31,992 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:33,553 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:34,131 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:35,039 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:36,164 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:38,190 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:38,997 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:39,074 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:40,205 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:42,227 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:43,117 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:04:44,126 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:44,257 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:46,285 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:46,343 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:04:46,343 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:04:46,357 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:04:48,318 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:49,599 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:50,338 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:52,365 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:54,388 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:54,635 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:04:56,416 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:57,678 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:04:57,679 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:04:57,680 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:04:57,683 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:04:58,239 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:04:58,441 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:04:59,708 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:00,117 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:05:00,461 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:01,346 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:05:01,347 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:05:01,362 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:05:02,487 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:04,614 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:05,562 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:06,658 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:08,686 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:10,591 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:10,719 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:12,740 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:14,767 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:15,413 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:15,953 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:16,357 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:05:16,358 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:05:16,372 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:05:16,801 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:18,821 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:20,840 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:21,490 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:21,739 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:22,883 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:24,557 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:24,928 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:26,970 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:27,017 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:29,006 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:30,130 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:05:31,057 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:31,376 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:05:31,377 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:05:31,378 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:05:32,731 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:32,749 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:33,102 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:35,339 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:37,384 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:37,869 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:39,427 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:40,927 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:41,462 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:43,511 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:43,522 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:45,559 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:46,384 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:05:46,385 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:05:46,386 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:05:47,037 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:05:47,593 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:48,699 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:49,626 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:51,667 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:53,703 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:53,750 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:55,747 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:57,791 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:05:58,820 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:05:59,829 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:00,135 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:06:01,387 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:06:01,388 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:06:01,389 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:06:01,866 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:03,899 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:04,691 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:06,112 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:08,153 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:09,746 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:10,192 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:10,500 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:06:10,504 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:06:10,505 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:06:10,508 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:06:10,509 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:06:11,523 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:06:12,221 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:14,253 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:15,550 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:16,286 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:16,408 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:06:16,409 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:06:16,410 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:06:18,316 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:20,350 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:20,675 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:22,368 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:24,397 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:25,707 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:26,427 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:28,454 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:29,743 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:30,151 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:06:30,480 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:31,157 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:31,408 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:06:31,410 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:06:31,424 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:06:32,500 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:34,525 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:34,824 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:36,690 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:36,806 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:38,707 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:38,865 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:40,728 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:42,606 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:42,753 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:42,936 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:44,783 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:46,412 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:06:46,413 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:06:46,428 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:06:46,806 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:46,993 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:47,658 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:48,827 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:50,853 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:51,051 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:06:52,870 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:53,379 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:54,888 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:56,919 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:06:58,420 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:06:58,952 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:00,154 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:07:00,970 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:01,401 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:07:01,402 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:07:01,433 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:07:02,999 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:03,633 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:05,025 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:06,535 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:07:06,536 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:07:06,537 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:07:06,539 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:07:07,126 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:07,240 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:07:09,153 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:09,559 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:11,185 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:13,220 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:14,598 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:15,251 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:16,409 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:07:16,409 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:07:16,440 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:07:17,270 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:19,301 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:19,642 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:21,332 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:23,353 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:23,451 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:24,981 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:25,369 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:27,401 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:29,426 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:29,518 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:30,169 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:07:30,171 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:31,411 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:07:31,411 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:07:31,458 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:07:31,459 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:33,486 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:33,562 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:35,527 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:35,863 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:37,794 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:39,729 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:39,839 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:41,033 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:41,880 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:43,926 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:45,835 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:45,962 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:46,412 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:07:46,413 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:07:46,459 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:07:46,706 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:48,001 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:50,037 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:51,762 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:52,080 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:54,019 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:07:54,126 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:56,161 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:07:57,634 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:07:58,203 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:00,172 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:08:00,251 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:01,421 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:08:01,422 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:08:01,467 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:08:02,291 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:02,685 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:04,337 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:06,369 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:07,748 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:08,549 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:10,591 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:12,648 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:12,776 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:14,689 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:16,455 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:08:16,457 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:08:16,479 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:08:16,726 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:17,050 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:08:17,053 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:08:17,054 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:08:17,056 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:08:17,469 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:08:18,064 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:18,765 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:20,815 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:22,840 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:23,120 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:24,871 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:26,915 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:28,149 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:28,942 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:30,186 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:08:30,982 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:31,451 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:08:31,453 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:08:31,498 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:08:33,023 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:33,722 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:35,065 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:37,103 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:38,761 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:39,329 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:41,384 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:41,951 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:08:43,428 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:44,751 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:45,469 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:46,462 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:08:46,463 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:08:46,508 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:08:47,503 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:49,549 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:50,148 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:08:50,331 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:51,592 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:53,633 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:55,682 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:56,215 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:08:56,278 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:08:57,719 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:08:59,763 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:00,196 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:09:01,487 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:09:01,488 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:09:01,519 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:09:01,775 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:01,802 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:03,847 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:04,458 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:09:05,887 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:06,879 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:07,920 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:10,155 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:11,599 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:09:12,201 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:12,602 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:14,239 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:16,285 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:16,494 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:09:16,495 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:09:16,525 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:09:17,737 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:18,329 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:19,777 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:09:20,370 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:22,414 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:23,205 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:24,460 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:26,513 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:28,240 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:28,553 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:30,207 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:09:30,596 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:31,761 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:09:31,762 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:09:31,763 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:09:32,648 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:34,052 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:34,687 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:36,721 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:38,757 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:39,098 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:40,982 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:42,362 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:09:42,365 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:09:42,365 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:09:42,367 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:09:43,021 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:43,208 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:09:44,392 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:45,069 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:46,768 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:09:46,769 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:09:46,770 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:09:47,104 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:49,141 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:50,040 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:51,180 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:53,223 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:55,089 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:09:55,259 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:57,295 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:09:59,338 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:00,143 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:00,207 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:10:01,386 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:01,789 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:10:01,790 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:10:01,792 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:10:03,424 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:05,465 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:05,618 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:06,652 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:07,503 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:09,538 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:10,732 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:11,766 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:13,803 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:13,806 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:15,849 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:16,306 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:16,787 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:10:16,803 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:10:16,805 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:10:17,889 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:19,927 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:21,492 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:21,981 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:21,989 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:24,049 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:26,094 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:26,541 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:28,129 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:30,180 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:30,191 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:30,221 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:10:31,786 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:10:31,787 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:31,801 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:10:31,802 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:10:32,220 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:34,256 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:36,297 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:37,199 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:38,333 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:38,379 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:40,387 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:42,246 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:42,636 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:44,682 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:46,543 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:10:46,724 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:46,791 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:10:46,807 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:10:46,807 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:10:48,035 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:48,768 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:50,797 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:52,830 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:53,066 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:54,883 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:56,918 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:10:58,136 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:10:58,954 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:00,227 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:11:00,988 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:01,800 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:11:01,859 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:11:01,861 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:11:03,032 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:03,172 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:05,082 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:07,121 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:08,220 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:09,151 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:09,251 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:11:09,254 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:11:09,255 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:11:09,256 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:11:10,031 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:11:11,187 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:13,316 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:13,371 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:15,411 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:17,455 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:18,360 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:19,514 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:20,713 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:11:20,715 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:11:20,717 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:11:21,554 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:23,603 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:23,990 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:25,646 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:27,686 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:29,027 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:29,730 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:30,240 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:11:31,785 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:33,831 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:34,567 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:11:34,850 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:35,725 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:11:35,725 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:11:35,727 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:11:35,868 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:37,906 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:39,950 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:40,025 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:41,993 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:42,750 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:11:44,236 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:45,812 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:46,287 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:48,330 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:50,379 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:50,727 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:11:50,728 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:11:50,730 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:11:50,935 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:11:51,025 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:52,427 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:54,481 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:56,074 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:11:56,528 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:58,572 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:11:59,153 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:12:00,254 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:12:00,620 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:01,265 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:02,666 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:04,718 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:05,719 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:12:05,733 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:12:05,735 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:12:06,308 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:12:06,756 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:06,929 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:08,801 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:10,845 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:11,975 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:12,891 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:14,484 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:12:15,103 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:17,147 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:17,423 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:19,189 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:20,737 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:12:20,752 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:12:20,753 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:12:21,237 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:23,067 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:23,279 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:25,322 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:27,362 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:28,111 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:29,403 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:30,266 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:12:31,464 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:33,289 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:33,523 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:35,568 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:35,745 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:12:35,756 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:12:35,757 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:12:37,359 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:12:37,362 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:12:37,362 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:12:37,365 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:12:37,615 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:38,009 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:12:38,378 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:39,661 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:41,691 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:43,429 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:43,721 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:45,951 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:47,989 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:48,483 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:50,031 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:50,741 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:12:50,756 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:12:50,757 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:12:52,065 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:54,059 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:12:54,106 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:56,149 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:58,186 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:12:59,115 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:00,222 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:00,269 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:13:01,496 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:02,270 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:04,308 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:04,317 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:05,743 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:13:05,758 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:13:05,759 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:13:06,355 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:08,396 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:08,679 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:10,093 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:10,440 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:12,489 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:14,520 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:15,143 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:16,732 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:16,860 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:18,784 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:20,742 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:20,755 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:13:20,756 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:13:20,757 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:13:20,824 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:22,864 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:24,899 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:25,045 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:25,939 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:26,936 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:28,972 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:30,278 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:13:31,014 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:31,288 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:33,054 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:33,211 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:35,097 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:35,759 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:13:35,760 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:13:35,762 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:13:37,013 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:37,137 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:39,183 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:41,232 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:41,392 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:13:42,728 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:43,269 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:45,315 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:47,535 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:47,780 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:49,588 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:51,639 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:52,832 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:53,686 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:54,031 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:13:54,032 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:13:54,034 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:13:55,724 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:57,760 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:13:58,339 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:13:59,801 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:00,282 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:14:01,849 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:03,889 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:04,308 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:05,244 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:14:05,247 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:14:05,248 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:14:05,250 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:14:05,885 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:14:05,929 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:07,984 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:09,038 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:14:09,039 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:14:09,042 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:14:10,026 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:10,281 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:12,063 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:14,101 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:15,339 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:16,135 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:18,336 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:20,370 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:20,406 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:22,419 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:24,027 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:14:24,028 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:14:24,043 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:14:24,463 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:26,297 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:26,516 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:28,562 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:30,299 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:14:30,615 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:31,305 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:31,386 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:14:32,662 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:34,704 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:36,349 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:36,755 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:38,797 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:39,027 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:14:39,029 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:14:39,059 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:14:39,587 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:14:40,833 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:42,319 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:42,892 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:44,947 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:45,709 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:14:46,989 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:47,981 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:49,232 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:51,280 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:53,320 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:53,958 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:54,052 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:14:54,053 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:14:54,068 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:14:55,371 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:55,909 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:14:57,418 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:14:59,319 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:14:59,462 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:00,313 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:15:01,490 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:03,527 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:04,072 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:15:04,910 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:05,563 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:07,618 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:09,064 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:15:09,064 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:15:09,080 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:15:09,247 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:15:09,657 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:10,321 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:11,693 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:13,734 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:15,383 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:15,769 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:17,819 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:20,038 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:20,455 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:22,082 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:24,063 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:15:24,064 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:15:24,094 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:15:24,121 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:26,161 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:26,351 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:28,204 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:30,253 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:30,326 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:15:32,298 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:32,342 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:34,305 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:15:34,311 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:15:34,312 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:15:34,314 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:15:34,351 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:34,781 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:15:36,389 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:38,339 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:38,433 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:39,072 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:15:39,073 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:15:39,104 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:15:40,472 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:42,520 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:43,374 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:44,563 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:46,602 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:48,448 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:48,629 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:50,862 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:52,905 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:53,507 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:15:54,078 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:15:54,079 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:15:54,109 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:15:54,948 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:56,993 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:59,031 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:15:59,076 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:00,323 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:00,335 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:16:01,061 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:03,100 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:04,402 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:05,138 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:07,171 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:08,492 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:09,075 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:16:09,076 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:16:09,122 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:16:09,220 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:10,317 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:11,267 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:13,318 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:15,363 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:15,646 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:15,924 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:17,402 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:19,435 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:20,965 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:21,666 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:23,701 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:23,842 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:24,087 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:16:24,088 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:16:24,134 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:16:25,740 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:26,308 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:27,784 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:29,830 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:30,343 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:16:31,358 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:31,880 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:32,014 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:33,922 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:35,963 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:36,409 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:37,995 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:39,092 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:16:39,093 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:16:39,179 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:16:40,039 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:40,199 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:16:42,077 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:42,375 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:44,112 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:46,147 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:47,412 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:48,187 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:50,236 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:52,419 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:52,456 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:54,108 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:16:54,109 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:16:54,140 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:16:54,452 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:56,503 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:16:58,392 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:16:58,550 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:00,356 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:17:00,590 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:02,647 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:02,739 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:17:02,742 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:17:02,743 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:17:02,746 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:17:03,714 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:17:03,749 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:04,687 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:06,732 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:08,769 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:08,808 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:09,118 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:17:09,119 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:17:09,150 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:17:10,814 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:12,861 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:14,358 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:14,900 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:16,948 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:18,984 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:19,409 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:21,019 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:23,198 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:24,123 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:17:24,125 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:17:24,153 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:17:25,230 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:25,320 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:27,284 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:28,157 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:29,316 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:30,363 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:17:30,365 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:31,357 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:32,217 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:33,392 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:35,426 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:35,936 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:37,456 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:38,299 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:39,131 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:17:39,132 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:17:39,163 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:17:39,483 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:40,978 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:41,504 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:42,369 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:43,533 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:45,555 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:46,190 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:46,407 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:47,587 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:49,616 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:50,459 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:17:51,399 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:51,633 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:53,753 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:54,129 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-01 18:17:54,130 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: stop_status
+2023-11-01 18:17:54,162 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:17:55,782 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:57,382 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:17:57,799 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:17:59,831 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:18:00,366 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:18:01,853 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:18:03,386 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:18:03,884 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:18:05,582 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-01 18:18:05,584 DEBUG   SenderThread:24868 [sender.py:send():380] send: history
+2023-11-01 18:18:05,584 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: summary_record
+2023-11-01 18:18:05,585 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: pause
+2023-11-01 18:18:05,585 INFO    HandlerThread:24868 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-01 18:18:05,586 INFO    HandlerThread:24868 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-01 18:18:05,586 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-01 18:18:05,588 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:18:05,588 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-01 18:18:05,588 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-01 18:18:05,610 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined disk monitor
+2023-11-01 18:18:05,674 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:18:05,694 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-01 18:18:05,694 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined memory monitor
+2023-11-01 18:18:05,695 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined network monitor
+2023-11-01 18:18:05,696 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:18:05,705 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: resume
+2023-11-01 18:18:05,705 INFO    HandlerThread:24868 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-01 18:18:05,706 INFO    HandlerThread:24868 [system_monitor.py:start():194] Starting system monitor
+2023-11-01 18:18:05,707 INFO    SystemMonitor:24868 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-01 18:18:05,717 DEBUG   SenderThread:24868 [sender.py:send():380] send: telemetry
+2023-11-01 18:18:05,718 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started cpu monitoring
+2023-11-01 18:18:05,719 DEBUG   SenderThread:24868 [sender.py:send():380] send: exit
+2023-11-01 18:18:05,720 INFO    SenderThread:24868 [sender.py:send_exit():585] handling exit code: 0
+2023-11-01 18:18:05,720 INFO    SenderThread:24868 [sender.py:send_exit():587] handling runtime: 1056
+2023-11-01 18:18:05,720 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started disk monitoring
+2023-11-01 18:18:05,722 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started gpu monitoring
+2023-11-01 18:18:05,723 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:18:05,724 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started memory monitoring
+2023-11-01 18:18:05,725 INFO    SenderThread:24868 [sender.py:send_exit():593] send defer
+2023-11-01 18:18:05,743 INFO    SystemMonitor:24868 [interfaces.py:start():190] Started network monitoring
+2023-11-01 18:18:05,744 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,745 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-01 18:18:05,745 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,745 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-01 18:18:05,746 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 1
+2023-11-01 18:18:05,746 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,746 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-01 18:18:05,747 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,747 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-01 18:18:05,747 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 2
+2023-11-01 18:18:05,747 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,747 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-01 18:18:05,747 INFO    HandlerThread:24868 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-01 18:18:05,748 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-01 18:18:05,748 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-01 18:18:05,748 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-01 18:18:05,749 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined disk monitor
+2023-11-01 18:18:05,749 DEBUG   SystemMonitor:24868 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-01 18:18:05,756 ERROR   gpu       :24868 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-11-01 18:18:05,879 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-01 18:18:05,879 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined memory monitor
+2023-11-01 18:18:05,880 INFO    HandlerThread:24868 [interfaces.py:finish():202] Joined network monitor
+2023-11-01 18:18:05,880 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,881 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-01 18:18:05,881 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 3
+2023-11-01 18:18:05,881 DEBUG   SenderThread:24868 [sender.py:send():380] send: stats
+2023-11-01 18:18:05,881 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,882 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-01 18:18:05,882 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,882 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-01 18:18:05,883 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 4
+2023-11-01 18:18:05,883 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,883 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-01 18:18:05,883 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,883 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-01 18:18:05,884 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 5
+2023-11-01 18:18:05,884 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,884 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-01 18:18:05,884 DEBUG   SenderThread:24868 [sender.py:send():380] send: summary
+2023-11-01 18:18:05,886 INFO    SenderThread:24868 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-01 18:18:05,887 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,887 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-01 18:18:05,887 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 6
+2023-11-01 18:18:05,887 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:05,888 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-01 18:18:05,888 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:05,888 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-01 18:18:05,894 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: status_report
+2023-11-01 18:18:06,150 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 7
+2023-11-01 18:18:06,150 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:06,150 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-01 18:18:06,151 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:06,151 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-01 18:18:06,680 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:18:06,681 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\config.yaml
+2023-11-01 18:18:06,681 INFO    Thread-31 :24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:18:06,727 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-01 18:18:07,999 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 8
+2023-11-01 18:18:07,999 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: poll_exit
+2023-11-01 18:18:07,999 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:08,000 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-01 18:18:08,001 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:08,002 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-01 18:18:08,002 INFO    SenderThread:24868 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-01 18:18:08,004 INFO    SenderThread:24868 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-11-01 18:18:08,004 INFO    SenderThread:24868 [job_builder.py:_get_program_relpath():411] run is notebook based run
+2023-11-01 18:18:08,005 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 9
+2023-11-01 18:18:08,006 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:08,006 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-01 18:18:08,006 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:08,007 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-01 18:18:08,007 INFO    SenderThread:24868 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-01 18:18:08,692 INFO    SenderThread:24868 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:18:08,693 INFO    SenderThread:24868 [dir_watcher.py:finish():388] scan: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files
+2023-11-01 18:18:08,693 INFO    SenderThread:24868 [dir_watcher.py:finish():402] scan save: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\config.yaml config.yaml
+2023-11-01 18:18:08,694 INFO    SenderThread:24868 [dir_watcher.py:finish():402] scan save: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log output.log
+2023-11-01 18:18:08,695 INFO    SenderThread:24868 [dir_watcher.py:finish():402] scan save: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\requirements.txt requirements.txt
+2023-11-01 18:18:08,703 INFO    SenderThread:24868 [dir_watcher.py:finish():402] scan save: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-metadata.json wandb-metadata.json
+2023-11-01 18:18:08,705 INFO    SenderThread:24868 [dir_watcher.py:finish():402] scan save: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json wandb-summary.json
+2023-11-01 18:18:08,713 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 10
+2023-11-01 18:18:08,714 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:08,715 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-01 18:18:08,718 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:08,718 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-01 18:18:08,719 INFO    SenderThread:24868 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-01 18:18:09,259 INFO    wandb-upload_0:24868 [upload_job.py:push():131] Uploaded file c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\config.yaml
+2023-11-01 18:18:09,292 INFO    wandb-upload_1:24868 [upload_job.py:push():131] Uploaded file c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\output.log
+2023-11-01 18:18:09,334 INFO    wandb-upload_3:24868 [upload_job.py:push():131] Uploaded file c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\wandb-summary.json
+2023-11-01 18:18:09,337 INFO    wandb-upload_2:24868 [upload_job.py:push():131] Uploaded file c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\files\requirements.txt
+2023-11-01 18:18:09,547 INFO    Thread-30 (_thread_body):24868 [sender.py:transition_state():613] send defer: 11
+2023-11-01 18:18:09,548 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:09,548 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-01 18:18:09,549 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:09,549 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-01 18:18:09,550 INFO    SenderThread:24868 [file_pusher.py:join():181] waiting for file pusher
+2023-11-01 18:18:09,550 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 12
+2023-11-01 18:18:09,550 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:09,551 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-01 18:18:09,551 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:09,551 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-01 18:18:09,552 INFO    SenderThread:24868 [file_stream.py:finish():595] file stream finish called
+2023-11-01 18:18:10,209 INFO    SenderThread:24868 [file_stream.py:finish():599] file stream finish is done
+2023-11-01 18:18:10,210 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 13
+2023-11-01 18:18:10,210 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:10,211 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-01 18:18:10,211 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:10,212 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-01 18:18:10,212 INFO    SenderThread:24868 [sender.py:transition_state():613] send defer: 14
+2023-11-01 18:18:10,212 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: defer
+2023-11-01 18:18:10,213 INFO    HandlerThread:24868 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-01 18:18:10,214 DEBUG   SenderThread:24868 [sender.py:send():380] send: final
+2023-11-01 18:18:10,214 DEBUG   SenderThread:24868 [sender.py:send():380] send: footer
+2023-11-01 18:18:10,214 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: defer
+2023-11-01 18:18:10,214 INFO    SenderThread:24868 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-01 18:18:10,216 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-01 18:18:10,217 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-01 18:18:10,218 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: poll_exit
+2023-11-01 18:18:10,219 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: server_info
+2023-11-01 18:18:10,220 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-01 18:18:10,220 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: server_info
+2023-11-01 18:18:10,221 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-01 18:18:10,227 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: job_info
+2023-11-01 18:18:10,396 DEBUG   SenderThread:24868 [sender.py:send_request():407] send_request: job_info
+2023-11-01 18:18:10,398 DEBUG   HandlerThread:24868 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-01 18:18:10,398 INFO    HandlerThread:24868 [handler.py:finish():866] shutting down handler
+2023-11-01 18:18:11,231 INFO    WriterThread:24868 [datastore.py:close():294] close: c:\Users\oltie\OneDrive\Escritorio\DiTella\6to_Semestre_23\TD6\TP3  Consignas y recursos-20231024\tp3_td6\wandb\run-20231101_180028-ic1dpxuo\run-ic1dpxuo.wandb
+2023-11-01 18:18:11,405 INFO    SenderThread:24868 [sender.py:finish():1534] shutting down sender
+2023-11-01 18:18:11,405 INFO    SenderThread:24868 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-01 18:18:11,405 INFO    SenderThread:24868 [file_pusher.py:join():181] waiting for file pusher
