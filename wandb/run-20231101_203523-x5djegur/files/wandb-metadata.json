@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2023-11-01T23:35:25.432301",
+    "startedAt": "2023-11-01T23:35:23.308215",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/lucasfpineram/tp3_td6.git",
+        "commit": "49c41a25019d918079f8b75749b08231a0174586"
+    },
+    "email": "oltie4002@gmail.com",
+    "root": "C:/Users/oltie/OneDrive/Escritorio/DiTella/6to_Semestre_23/TD6/TP3  Consignas y recursos-20231024/tp3_td6",
+    "host": "DESKTOP-LB9RBNV",
+    "username": "oltie",
+    "executable": "c:\\Users\\oltie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2304.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 933.9081993103027,
+            "used": 381.72436904907227
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.744911193847656
+    }
+}

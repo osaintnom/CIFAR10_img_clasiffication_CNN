@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 import torch.utils.data
 import numpy as np
 import wandb
+import torchvision.models as models
 
 wandb.login()
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -25,12 +26,32 @@ batch_size =32
 learning_rate = 0.02
 momentum =.9
 epochs = 10
-name_net_exp = ['MLP','fc_hl_bigvalues','fc_hl_1layers','fc_hl_values_and_2layers','fc_hl_bigvalues_and_2layers','fc_hl_less_values','fc_hl_1layer_less','fc_hl_1layerless_smallvalues','cnn_lessvalues','cnn_lessvalues_LR_MP','CNN_LeNet-5']
+name_net_exp = ['MLP','fc_hl_bigvalues','fc_hl_1layers','fc_hl_values_and_2layers','fc_hl_bigvalues_and_2layers',
+                'fc_hl_less_values','fc_hl_1layer_less','fc_hl_1layerless_smallvalues','cnn_lessvalues','cnn_lessvalues_LR_MP',
+                'CNN_LeNet-5','cnn_lessvalues_resnet']
 project_name = "TP3"
 
 
 for name in name_net_exp:
     experiment_name = name
+
+    transform = transforms.Compose([transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
+
+    trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
+
+    targets_ = trainset.targets
+    train_idx, val_idx = train_test_split(np.arange(len(targets_)), test_size=0.2, stratify=targets_)
+    train_sampler = torch.utils.data.SubsetRandomSampler(train_idx)
+    val_sampler = torch.utils.data.SubsetRandomSampler(val_idx)
+
+    trainloader = torch.utils.data.DataLoader(trainset, sampler=train_sampler,batch_size=batch_size, num_workers=2)
+    valloader = torch.utils.data.DataLoader(trainset, sampler=val_sampler,batch_size=batch_size, num_workers=2)
+
+    testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform)
+    testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=2)
+
+    classes = ('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+    
     if experiment_name == "MLP":
         class Net(nn.Module):
             def __init__(self):
@@ -229,6 +250,18 @@ for name in name_net_exp:
                 x = self.fc3(x)
                 return x
 
+    elif experiment_name == "cnn_lessvalues_resnet":
+        class Net(nn.Module):
+            def __init__(self):
+                super(Net, self).__init__()
+                self.resnet18 = models.resnet18(pretrained=True)
+                num_ftrs = self.resnet18.fc.in_features
+                self.resnet18.fc = nn.Linear(num_ftrs, 10)
+
+            def forward(self, x):
+                return self.resnet18(x)
+            
+
     net = Net()
     net.to(device)
 
@@ -251,22 +284,6 @@ for name in name_net_exp:
         }
     )
 
-    transform = transforms.Compose([transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
-
-    trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
-
-    targets_ = trainset.targets
-    train_idx, val_idx = train_test_split(np.arange(len(targets_)), test_size=0.2, stratify=targets_)
-    train_sampler = torch.utils.data.SubsetRandomSampler(train_idx)
-    val_sampler = torch.utils.data.SubsetRandomSampler(val_idx)
-
-    trainloader = torch.utils.data.DataLoader(trainset, sampler=train_sampler,batch_size=batch_size, num_workers=2)
-    valloader = torch.utils.data.DataLoader(trainset, sampler=val_sampler,batch_size=batch_size, num_workers=2)
-
-    testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform)
-    testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=2)
-
-    classes = ('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
     for epoch in range(epochs):  # loop over the dataset multiple times
 
