@@ -1,0 +1,4 @@
+torch.Size([32, 512, 2, 2])
+torch.Size([32, 512, 1, 1])
+torch.Size([32, 512])
+mat1 and mat2 shapes cannot be multiplied (32x512 and 25088x4096)
