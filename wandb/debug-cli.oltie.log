@@ -193,3 +193,29 @@ wandb.errors.UsageError: api_key not configured (no-tty). call wandb login [your
     raise UsageError("api_key not configured (no-tty). call " + directive)
 wandb.errors.UsageError: api_key not configured (no-tty). call wandb login [your_api_key]
 
+2023-11-02 18:12:59 ERROR Traceback (most recent call last):
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\cli\cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\cli\cli.py", line 246, in login
+    wandb.login(relogin=relogin, key=key, anonymous=anon_mode, host=host, force=True)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 77, in login
+    configured = _login(**kwargs)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 228, in prompt_api_key
+    raise UsageError("api_key not configured (no-tty). call " + directive)
+wandb.errors.UsageError: api_key not configured (no-tty). call wandb login [your_api_key]
+
+2023-11-02 18:57:30 ERROR Traceback (most recent call last):
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\cli\cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\cli\cli.py", line 246, in login
+    wandb.login(relogin=relogin, key=key, anonymous=anon_mode, host=host, force=True)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 77, in login
+    configured = _login(**kwargs)
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\oltie\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_login.py", line 228, in prompt_api_key
+    raise UsageError("api_key not configured (no-tty). call " + directive)
+wandb.errors.UsageError: api_key not configured (no-tty). call wandb login [your_api_key]
+
