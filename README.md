@@ -6,7 +6,7 @@ To review the results, please read the REPORT and learn from our findings.
 
 -------------------------------------------------------------------------
 
-# Experimentos para la Optimización de una Red Neuronal en CIFAR-10
+## Experimentos para la Optimización de una Red Neuronal en CIFAR-10
 
 Esta investigación tiene como objetivo explorar y evaluar una variedad de hiperparámetros en el contexto del entrenamiento de redes neuronales para la clasificación de imágenes utilizando el conjunto de datos CIFAR-10. El objetivo es comprender cómo diferentes configuraciones afectan el rendimiento de modelos de aprendizaje profundo y cuáles son las estrategias más efectivas para optimizar los modelos. A través de una serie de aspectos avanzados como arquitectura, funciones de activación, optimizadores, regularización y otros, buscamos identificar las mejores configuraciones que maximizan la precisión de la clasificación. A lo largo de este informe, presentaremos los resultados de nuestros experimentos.
 
